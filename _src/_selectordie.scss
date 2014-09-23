@@ -168,17 +168,13 @@
   //Optgroups
   .sod_option {
 
-    .optgroup {
+    .optgroup ,
+    .optgroup.disabled {
       background: inherit;
       color: #939393;
       font-size: 10px;
       font-style: italic;
-
-      &.disabled {
-        @extend .sod_option.optgroup;
-      }
-
-    }//.optgroup
+    }
 
     &.groupchild {
       padding-left: 20px;
